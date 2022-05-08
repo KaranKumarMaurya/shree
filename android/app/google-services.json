@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "261825711469",
+    "firebase_url": "https://sgj-bhavsagar.firebaseio.com",
+    "project_id": "sgj-bhavsagar",
+    "storage_bucket": "sgj-bhavsagar.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261825711469:android:a7814d5f6542c702169e64",
+        "android_client_info": {
+          "package_name": "com.dcubesoft.sgj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261825711469-v1rob5i6446uiebfghih2vrknoablori.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiSJH3v-15IqOAAbSo6zleR1MrzNBw09I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261825711469-v1rob5i6446uiebfghih2vrknoablori.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

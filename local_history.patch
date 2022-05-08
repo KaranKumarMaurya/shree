@@ -1,0 +1,16 @@
+Index: lib/components/Bag/Bag.dart
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- lib/components/Bag/Bag.dart	(date 1609671056041)
++++ lib/components/Bag/Bag.dart	(date 1609671056041)
+@@ -343,7 +343,7 @@
+                                   // currentValue = int.parse(value);
+                                 });
+                               },
+-                              value: snap.data.data()["quantity"].toString(),
++                              value: int.parse(snap.data.data()["quantity"].toString()),
+                             )
+                           // child: SizeButton(minSize: widget.snapshot.data.docs[widget.index].data()["specifications"]["size"]["min"], maxSize: widget.snapshot.data.docs[widget.index].data()["specifications"]["size"]["max"],currentSize: widget.snapshot.data.docs[widget.index].data()["specifications"]["customizable"]["size"],update: (var value, String name) {
+                           //   print("I ran");
